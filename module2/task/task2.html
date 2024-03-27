@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Link HTML</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1>Waroeng Angkel Abe</h1>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <h2>Daftar Barang</h2>
+                <ul>
+                    <li><a href="task2.html">List Barang</a></li>
+                    <li><a href="task2-1.html">Preview Barang</a></li>
+                    <!-- Tambahkan daftar makanan lainnya di sini -->
+                </ul>
+            </div>
+            <div class="order">
+                <h2>Silakan Pilih Barang Anda</h2>
+                <form action="task2-1.html" method="post">
+                    <table>
+                        <tr>
+                            <th>Nama Barang</th>
+                            <th>Jumlah</th>
+                        </tr>
+                        <tr>
+                            <td>Luffy</td>
+                            <td><input type="number" name="jumlah" min="1"></td>
+                        </tr>
+                        <tr>
+                            <td>Pesawat</td>
+                            <td><input type="number" name="jumlah" min="1"></td>
+                        </tr>
+                        <!-- Tambahkan baris lain untuk input makanan lainnya -->
+                    </table>
+                    <input type="submit" value="Pesan">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

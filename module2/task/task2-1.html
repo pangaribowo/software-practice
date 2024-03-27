@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restoran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>Daftar Barang</h2>
+            <ul>
+                <li><a href="task2.html">List Barang</a></li>
+                <li><a href="task2-1.html">Preview Barang</a></li>
+                <!-- Tambahkan daftar makanan lainnya di sini -->
+            </ul>
+        </div>
+        <div class="order">
+            <h2>Detail Barang</h2>
+            <div id="makanan1">
+                <form action="task2.html" method="post">
+                    <table>
+                        <tr>
+                            <th>Nama Barang</th>
+                            <th>Komentar</th>
+                        </tr>
+                        <tr>
+                            <td>Poster Luffy <img src="../assets/lutfi.jpg" alt="Makanan 1"> </td>
+                            <td><input type="text" name="nama_makanan"></td>
+                        </tr>
+                        <tr>
+                            <td>Shorts Pesawat 
+                                <video width="320" controls>
+                                    <source src="../assets/pecawat.mp4" type="video/mp4" alt="Makanan 2">
+                                </video>
+                            </td>
+                            <td><input type="text" name="nama_makanan"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Kembali">
+                </form>
+            </div>
+            <!-- Tambahkan form lain untuk makanan lainnya -->
+        </div>
+    </div>
+</body>
+</html>
