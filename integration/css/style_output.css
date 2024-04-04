@@ -1,0 +1,62 @@
+/* CSS untuk tampilan output */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* CSS untuk tombol edit, delete, dan back */
+.btn-edit, .btn-delete, .btn-back {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Agar tautan tidak memiliki garis bawah */
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    margin-left: 5px; /* Menambahkan jarak antara tombol */
+}
+
+.btn-back {
+    background-color: #28a745;
+    margin-left: 5px; /* Menambahkan jarak antara tombol */
+}

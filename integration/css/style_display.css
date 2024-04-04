@@ -1,0 +1,85 @@
+/* CSS untuk tampilan tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px; /* Menambahkan padding untuk lebih nyaman dilihat */
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #ccd5ff;
+}
+
+th {
+    background-color: #003e81;
+    color: white;
+}
+
+/* CSS untuk tombol edit dan delete */
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+/* CSS untuk container tombol */
+.button-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* CSS untuk tabel tombol */
+.button-table {
+    width: 100%;
+}
+
+.button-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.button-table a {
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #dc3545; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS untuk tombol input dan back */
+.btn-input, .btn-back {
+    padding: 10px 20px; /* Menyesuaikan ukuran tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Agar tautan tidak memiliki garis bawah */
+    display: inline-block; /* Menjadikan tombol sebagai inline block agar dapat diatur posisinya */
+}
+
+.btn-input {
+    background-color: #00886a;
+    margin-left: 10px; /* Menambahkan jarak antara tombol */
+}
+
+.btn-back {
+    background-color: #369200;
+    margin-left: 10px; /* Menambahkan jarak antara tombol */
+}

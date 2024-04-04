@@ -11,13 +11,13 @@ Everyone is welcome to fork or clone the repository with the hope of acknowledgi
 3. As a guide, it will be easier if you already have at least mastered the basics of displaying source code to your respective browsers.
 4. Please note that in chapters 5-7 when it comes to databases, you need to have at least a basic understanding of `phpmyadmin` to create tables and interact with the data within.
 
-Feel free to use this repository wisely, and it is far from perfect, so there is a need for further development. For collaboration or inquiries, you can contact via [Email](https://mailto:trustedintelegree@gmail.com).
+Feel free to use this repository wisely, and it is far from perfect, so there is a need for further development. For collaboration or inquiries, you can contact via [Email](mailto:trustedintelegree@gmail.com).
 
 ### The sequence of discussions is as follows:
 
-1. [Module 1: Introduction to HTML](../tes/readme/rdm_module1.md)
-2. [Module 2: Advanced HTML](../tes/readme/rdm_module2.md)
-3. [Module 3: PHP Fundamentals](../tes/readme/rdm_module3.md)
+1. [Module 1: Introduction to HTML](readme/rdm_module1.md)
+2. [Module 2: Advanced HTML](readme/rdm_module2.md)
+3. [Module 3: PHP Fundamentals](readme/rdm_module3.md)
 4. [Managing repo on your own account](03-managing-repo-own-account.md)
 5. [Managing repo in an organization](03-managing-repo-own-organization.md)
 6. [Collaboration](04-collaboration.md)

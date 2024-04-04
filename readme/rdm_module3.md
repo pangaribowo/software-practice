@@ -84,8 +84,10 @@ This repository is licensed under the [Apache License 2.0](https://www.apache.or
 
 ## Contact
 
-I'm open to further discussions or collaborations. Please feel free to reach out via email: trustedintelegree@gmail.com.
+I'm open to further discussions or collaborations. Please feel free to reach out via [Email](mailto:trustedintelegree@gmail.com).
 
 ## Additional
 
-Reference: Practical Module Guidebook for Web Engineering. Agustian, Harliyus S.Kom., M.Cs. Integrated Laboratory of Adisutjipto Aerospace Institute Yogyakarta. 2024.
+Reference: "Practical Module Guidebook for Web Engineering" by Agustian, Harliyus, S.Kom., M.Cs. Integrated Laboratory of Adisutjipto Institute of Aerospace Technology, Yogyakarta, 2024.
+
+[ [<< Back](../README.md) ]
