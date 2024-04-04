@@ -1,5 +1,7 @@
 # Web Engineering Practicum Module Guide
 
+![WebEng](../img/ai.svg)
+
 This document serves as documentation for the completion of all modules, both practical work and assignments, and is intended for anyone interested in learning the basics of web engineering, covering fundamental structures of HTML, PHP, database integration, as well as an introduction to cookies and sessions, and more as outlined in the chapters below.
 
 Everyone is welcome to fork or clone the repository with the hope of acknowledging the source if used for publication purposes or similar. This module is entirely dedicated to the learning of all individuals who wish to delve into website engineering through structured modules.
@@ -15,9 +17,11 @@ Feel free to use this repository wisely, and it is far from perfect, so there is
 
 ### The sequence of discussions is as follows:
 
+*  [Integration](readme/rdm_intg.md)
 1. [Module 1: Introduction to HTML](readme/rdm_module1.md)
 2. [Module 2: Advanced HTML](readme/rdm_module2.md)
 3. [Module 3: PHP Fundamentals](readme/rdm_module3.md)
-4. [Managing repo on your own account](03-managing-repo-own-account.md)
-5. [Managing repo in an organization](03-managing-repo-own-organization.md)
-6. [Collaboration](04-collaboration.md)
+4. [Module 4: Advanced PHP](readme/rdm_module4.md)
+5. [Module 5: Web Database Management](readme/rdm_module5.md)
+6. [Module 6: Data Manipulation Language](readme/rdm_module6.md)
+7. [Module 7: Cookies, Sessions, and Data Validation](readme/rdm_module7.md)
