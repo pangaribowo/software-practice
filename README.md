@@ -1,6 +1,6 @@
 # Web Engineering Practicum Module Guide
 
-![WebEng](img/ai.jpeg)
+[Web](img/ai.jpeg)
 
 This document serves as documentation for the completion of all modules, both practical work and assignments, and is intended for anyone interested in learning the basics of web engineering, covering fundamental structures of HTML, PHP, database integration, as well as an introduction to cookies and sessions, and more as outlined in the chapters below.
 
