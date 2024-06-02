@@ -34,8 +34,10 @@ if (!isset($_SESSION['user'])) {
             echo "<td>" . $row["jurusan"] . "</td>";
             echo "<td>" . $row["tgl_lahir"] . "</td>";
             echo "<td>" . $row["email"] . "</td>";
-            echo "<td>" . $row["foto"] . "</td>";
-            echo "<td>" . $row["file_pdf"] . "</td>";
+            echo "<td><img src='" . $row["foto"] . "' style='max-width:100px;'></td>";
+            echo "<td><a href='" . $row["file_pdf"] . "'>Lihat PDF</a></td>";
+            // echo "<td>" . $row["foto"] . "</td>";
+            // echo "<td>" . $row["file_pdf"] . "</td>";
             echo "<td>";
             echo "<button class='btn-edit' onclick='editData(\"" . $row['nim'] . "\")'>Edit</button>";
             echo "<button class='btn-delete' onclick='deleteData(\"" . $row['nim'] . "\")'>Hapus</button>";
